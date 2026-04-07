@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vedic Horoscope — Privacy Policy</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #07091a; color: #d4cbb8; line-height: 1.7; }
+  header { background: #0d1130; border-bottom: 1px solid #1e2448; padding: 24px 20px; text-align: center; }
+  header h1 { color: #e8a838; font-size: 28px; font-weight: 300; letter-spacing: 4px; text-transform: uppercase; }
+  header p { color: #7a7560; font-size: 14px; margin-top: 6px; letter-spacing: 2px; }
+  .lang-bar { background: #0d1130; border-bottom: 1px solid #1e2448; display: flex; justify-content: center; gap: 8px; padding: 12px; flex-wrap: wrap; position: sticky; top: 0; z-index: 100; }
+  .lang-btn { background: transparent; border: 1px solid #1e2448; border-radius: 8px; color: #7a7560; cursor: pointer; font-size: 14px; padding: 6px 16px; transition: all 0.2s; }
+  .lang-btn.active, .lang-btn:hover { background: #e8a838; border-color: #e8a838; color: #07091a; font-weight: 600; }
+  .container { max-width: 800px; margin: 0 auto; padding: 40px 20px 80px; }
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+  h2 { color: #e8a838; font-size: 13px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; margin: 40px 0 16px; padding-bottom: 8px; border-bottom: 1px solid #1e2448; }
+  p { color: #d4cbb8; font-size: 15px; margin-bottom: 12px; white-space: pre-line; }
+  .updated { color: #7a7560; font-size: 13px; text-align: center; margin-bottom: 40px; }
+  .divider { text-align: center; color: #e8a838; margin: 32px 0; opacity: 0.4; letter-spacing: 8px; }
+  footer { text-align: center; color: #7a7560; font-size: 12px; padding: 24px; border-top: 1px solid #1e2448; letter-spacing: 2px; }
+  a { color: #e8a838; }
+</style>
+</head>
+<body>
+<header>
+  <h1>ॐ Vedic Horoscope</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<div class="lang-bar">
+  <button class="lang-btn active" onclick="setLang('en')">English</button>
+  <button class="lang-btn" onclick="setLang('pl')">Polski</button>
+  <button class="lang-btn" onclick="setLang('ua')">Українська</button>
+  <button class="lang-btn" onclick="setLang('cs')">Čeština</button>
+</div>
+
+<div class="container">
+
+<!-- ENGLISH -->
+<div class="lang-section active" id="lang-en">
+  <p class="updated">Last updated: April 1, 2026</p>
+
+  <h2>1. Data Controller</h2>
+  <p>The controller of personal data processed through the "Vedic Horoscope" application is Filip Owczarek, Augusta Cieszkowskiego 1/3 m.5, 01-636 Warsaw, Poland (hereinafter: the "Controller").
+
+The Controller processes personal data in accordance with Regulation (EU) 2016/679 (GDPR) and applicable national legislation.</p>
+
+  <h2>2. Data We Collect</h2>
+  <p>The App processes the following categories of personal data:
+
+a) Basic data (provided by the user):
+• Date of birth
+• Time of birth
+• Place of birth
+• Gender
+• Menstrual cycle phase (optional, women only) — constitutes health data under Article 9(1) GDPR
+
+b) Contextual data (collected temporarily when personalization is enabled):
+• Approximate location
+• Weather data
+• Calendar events
+• Moon phase
+• Device battery level
+
+Contextual data is NOT stored — it is used only once in a single AI request and is not saved on any server.
+
+c) Device language preference.</p>
+
+  <h2>3. Legal Basis</h2>
+  <p>• Art. 6(1)(a) GDPR — user consent for processing basic data to generate horoscopes.
+• Art. 9(2)(a) GDPR — explicit consent for processing health data (cycle phase). Voluntary and withdrawable at any time.
+• Art. 6(1)(f) GDPR — legitimate interest for security and fraud prevention.</p>
+
+  <h2>4. Purpose of Processing</h2>
+  <p>Personal data is processed exclusively to:
+• Generate personalized Vedic horoscopes and natal chart analyses
+• Deliver contextually personalized readings (when enabled)
+• Provide app notifications (when enabled)
+• Ensure app security</p>
+
+  <h2>5. Data Storage</h2>
+  <p>User personal data is stored exclusively on the user's device using AsyncStorage technology.
+
+The App does NOT maintain a server-side user database. No personal data is permanently stored on the Controller's servers.
+
+Contextual data (location, weather, calendar, moon phase, battery) is fetched in real time and included only in a single API request — it is not stored anywhere.</p>
+
+  <h2>6. Third-Party Data Sharing</h2>
+  <p>In order to generate a horoscope, user data is transmitted to:
+
+a) Anthropic (provider of the Claude AI model) — data is sent as part of a prompt to the API. Anthropic processes data in accordance with its privacy policy (https://www.anthropic.com/privacy). Data submitted via the API is not used by Anthropic to train AI models.
+
+b) Supabase — serves as a technical intermediary (Edge Function). The request passes through Supabase infrastructure; however, personal data is not permanently stored there.
+
+The Controller does not share personal data with any other third parties.</p>
+
+  <h2>7. Data Retention</h2>
+  <p>Personal data is retained on the user's device until:
+• The App is uninstalled, or
+• The user manually clears the App's data through device settings
+
+Once deleted, data cannot be recovered by the Controller.</p>
+
+  <h2>8. User Rights</h2>
+  <p>Under GDPR (Articles 15–22), users have the right to: access, rectification, erasure, restriction of processing, data portability, objection, and withdrawal of consent at any time.
+
+To exercise your rights, contact: daddyd3v@pm.me
+
+You may also lodge a complaint with a supervisory authority — the President of the Personal Data Protection Office (UODO), ul. Stawki 2, 00-193 Warsaw, Poland, www.uodo.gov.pl.</p>
+
+  <h2>9. Children</h2>
+  <p>The App is not intended for persons under the age of 16. The Controller does not knowingly collect personal data from children.</p>
+
+  <h2>10. Cookies and Tracking</h2>
+  <p>The App does not use cookies, tracking pixels, analytics tools, or any other user-tracking technologies. The App does not contain third-party SDKs for advertising or analytics.</p>
+
+  <h2>11. Changes to This Privacy Policy</h2>
+  <p>The Controller reserves the right to amend this Privacy Policy. Users will be informed of any material changes through an App update. Continued use of the App after changes constitutes acceptance.</p>
+
+  <h2>12. Contact</h2>
+  <p>For matters related to personal data protection:
+
+Email: daddyd3v@pm.me
+Filip Owczarek
+Augusta Cieszkowskiego 1/3 m.5
+01-636 Warsaw, Poland</p>
+
+  <h2>13. Special Notice Regarding Health Data</h2>
+  <p>Menstrual cycle phase constitutes health data within the meaning of Article 9(1) GDPR (special category data).
+
+Processing is carried out solely on the basis of the user's explicit consent (Article 9(2)(a) GDPR).
+
+Important:
+• Providing cycle phase data is entirely voluntary and optional.
+• This data is NOT stored on any server.
+• This data is used only once to generate a single horoscope reading.
+• The user may withdraw consent at any time through the App settings.
+• The App is NOT a medical device and is not intended for health monitoring.</p>
+</div>
+
+<!-- POLISH -->
+<div class="lang-section" id="lang-pl">
+  <p class="updated">Ostatnia aktualizacja: 1 kwietnia 2026</p>
+
+  <h2>1. Administrator danych</h2>
+  <p>Administratorem danych osobowych przetwarzanych w aplikacji „Vedic Horoscope" jest Filip Owczarek, Augusta Cieszkowskiego 1/3 m.5, 01-636 Warszawa, Polska (dalej: „Administrator").
+
+Administrator przetwarza dane osobowe zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO) oraz ustawą z dnia 10 maja 2018 r. o ochronie danych osobowych.</p>
+
+  <h2>2. Jakie dane zbieramy</h2>
+  <p>Aplikacja przetwarza następujące kategorie danych osobowych:
+
+a) Dane podstawowe (podawane przez użytkownika):
+• Data urodzenia
+• Godzina urodzenia
+• Miejsce urodzenia
+• Płeć
+• Faza cyklu miesiączkowego (opcjonalnie, dotyczy wyłącznie kobiet) — stanowi dane dotyczące zdrowia w rozumieniu art. 9 ust. 1 RODO
+
+b) Dane kontekstowe (zbierane tymczasowo, gdy personalizacja jest włączona):
+• Przybliżona lokalizacja użytkownika
+• Dane pogodowe
+• Dane kalendarzowe
+• Faza Księżyca
+• Poziom naładowania baterii urządzenia
+
+Dane kontekstowe NIE SĄ przechowywane — są wykorzystywane wyłącznie jednorazowo w zapytaniu do modelu AI i nie są zapisywane na żadnym serwerze.
+
+c) Preferencja językowa urządzenia.</p>
+
+  <h2>3. Podstawa prawna przetwarzania</h2>
+  <p>• Art. 6 ust. 1 lit. a) RODO — zgoda użytkownika na przetwarzanie danych podstawowych w celu generowania horoskopu.
+• Art. 9 ust. 2 lit. a) RODO — wyraźna zgoda na przetwarzanie danych dotyczących zdrowia (faza cyklu). Dobrowolna, możliwa do wycofania w każdej chwili.
+• Art. 6 ust. 1 lit. f) RODO — uzasadniony interes Administratora w zakresie bezpieczeństwa.</p>
+
+  <h2>4. Cel przetwarzania</h2>
+  <p>Dane osobowe są przetwarzane wyłącznie w celu:
+• Generowania spersonalizowanych horoskopów wedyjskich i analiz natalnych
+• Dostarczania kontekstowo spersonalizowanych odczytów (gdy włączone)
+• Wysyłania powiadomień aplikacji (gdy włączone)
+• Zapewnienia bezpieczeństwa aplikacji</p>
+
+  <h2>5. Przechowywanie danych</h2>
+  <p>Dane osobowe użytkownika są przechowywane wyłącznie na urządzeniu użytkownika przy użyciu technologii AsyncStorage.
+
+Aplikacja NIE prowadzi serwerowej bazy danych użytkowników. Żadne dane osobowe nie są trwale przechowywane na serwerach Administratora.
+
+Dane kontekstowe (lokalizacja, pogoda, kalendarz, faza Księżyca, bateria) są pobierane w czasie rzeczywistym i uwzględniane wyłącznie w jednym żądaniu API — nie są nigdzie zapisywane.</p>
+
+  <h2>6. Udostępnianie danych podmiotom trzecim</h2>
+  <p>W celu wygenerowania horoskopu dane użytkownika są przekazywane do:
+
+a) Anthropic (dostawca modelu AI Claude) — dane są wysyłane jako część promptu do API. Anthropic przetwarza dane zgodnie ze swoją polityką prywatności (https://www.anthropic.com/privacy). Dane przesłane przez API nie są przez Anthropic wykorzystywane do trenowania modeli AI.
+
+b) Supabase — pełni rolę technicznego pośrednika (Edge Function). Żądanie przechodzi przez infrastrukturę Supabase, jednak dane osobowe nie są tam trwale przechowywane.
+
+Administrator nie udostępnia danych osobowych żadnym innym podmiotom trzecim.</p>
+
+  <h2>7. Okres przechowywania danych</h2>
+  <p>Dane osobowe są przechowywane na urządzeniu użytkownika do momentu:
+• Odinstalowania Aplikacji, lub
+• Ręcznego wyczyszczenia danych Aplikacji przez użytkownika w ustawieniach urządzenia</p>
+
+  <h2>8. Prawa użytkownika</h2>
+  <p>Na podstawie RODO (art. 15–22) użytkownikowi przysługuje prawo do: dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszenia danych, sprzeciwu oraz wycofania zgody w dowolnym momencie.
+
+W celu skorzystania z praw prosimy o kontakt: daddyd3v@pm.me
+
+Użytkownik ma również prawo złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych (UODO), ul. Stawki 2, 00-193 Warszawa, www.uodo.gov.pl.</p>
+
+  <h2>9. Dzieci</h2>
+  <p>Aplikacja nie jest przeznaczona dla osób poniżej 16 roku życia. Administrator świadomie nie zbiera danych dzieci.</p>
+
+  <h2>10. Pliki cookie i śledzenie</h2>
+  <p>Aplikacja nie wykorzystuje plików cookie, pikseli śledzących, narzędzi analitycznych ani żadnych innych technologii śledzenia użytkowników. Aplikacja nie zawiera zewnętrznych zestawów SDK do reklam lub analityki.</p>
+
+  <h2>11. Zmiany w polityce prywatności</h2>
+  <p>Administrator zastrzega sobie prawo do wprowadzania zmian w niniejszej Polityce Prywatności. O wszelkich istotnych zmianach użytkownik zostanie poinformowany za pośrednictwem aktualizacji Aplikacji.</p>
+
+  <h2>12. Kontakt</h2>
+  <p>W sprawach związanych z ochroną danych osobowych:
+
+E-mail: daddyd3v@pm.me
+Filip Owczarek
+Augusta Cieszkowskiego 1/3 m.5
+01-636 Warszawa, Polska</p>
+
+  <h2>13. Szczególna informacja dotycząca danych o zdrowiu</h2>
+  <p>Faza cyklu miesiączkowego stanowi dane dotyczące zdrowia w rozumieniu art. 9 ust. 1 RODO (dane szczególnej kategorii).
+
+Przetwarzanie tych danych odbywa się wyłącznie na podstawie wyraźnej zgody użytkownika (art. 9 ust. 2 lit. a RODO).
+
+Ważne informacje:
+• Podanie fazy cyklu jest całkowicie dobrowolne i opcjonalne.
+• Dane te NIE są przechowywane na żadnym serwerze.
+• Dane te są wykorzystywane wyłącznie jednorazowo w celu wygenerowania pojedynczego horoskopu.
+• Użytkownik może w każdej chwili wycofać zgodę w ustawieniach Aplikacji.
+• Aplikacja NIE jest urządzeniem medycznym i nie służy do monitorowania stanu zdrowia.</p>
+</div>
+
+<!-- UKRAINIAN -->
+<div class="lang-section" id="lang-ua">
+  <p class="updated">Останнє оновлення: 1 квітня 2026</p>
+
+  <h2>1. Контролер даних</h2>
+  <p>Контролером персональних даних, що обробляються в додатку «Vedic Horoscope», є Filip Owczarek, Augusta Cieszkowskiego 1/3 m.5, 01-636 Варшава, Польща (далі — «Контролер»).
+
+Контролер обробляє персональні дані відповідно до Регламенту (ЄС) 2016/679 (GDPR) та чинного національного законодавства.</p>
+
+  <h2>2. Які дані ми збираємо</h2>
+  <p>Додаток обробляє такі категорії персональних даних:
+
+а) Основні дані (надані користувачем):
+• Дата народження
+• Час народження
+• Місце народження
+• Стать
+• Фаза менструального циклу (необов'язково, лише для жінок) — є даними про здоров'я за ст. 9(1) GDPR
+
+б) Контекстні дані (збираються тимчасово при увімкненій персоналізації):
+• Приблизне місцезнаходження
+• Погодні дані
+• Події календаря
+• Фаза Місяця
+• Рівень заряду батареї пристрою
+
+Контекстні дані НЕ зберігаються — вони використовуються лише один раз у запиті до AI і не записуються на жодному сервері.
+
+в) Мовні налаштування пристрою.</p>
+
+  <h2>3. Правова підстава обробки</h2>
+  <p>• Ст. 6(1)(а) GDPR — згода користувача на обробку основних даних для генерації гороскопу.
+• Ст. 9(2)(а) GDPR — явна згода на обробку даних про здоров'я (фаза циклу). Добровільна, може бути відкликана будь-коли.
+• Ст. 6(1)(f) GDPR — законний інтерес Контролера щодо безпеки.</p>
+
+  <h2>4. Мета обробки</h2>
+  <p>Персональні дані обробляються виключно для:
+• Генерації персоналізованих ведичних гороскопів та аналізів Кундалі
+• Надання контекстно персоналізованих читань (коли увімкнено)
+• Відправлення сповіщень додатку (коли увімкнено)
+• Забезпечення безпеки додатку</p>
+
+  <h2>5. Зберігання даних</h2>
+  <p>Персональні дані зберігаються виключно на пристрої користувача за допомогою технології AsyncStorage.
+
+Додаток НЕ веде серверну базу даних користувачів. Жодні персональні дані не зберігаються постійно на серверах Контролера.
+
+Контекстні дані (місцезнаходження, погода, календар, фаза Місяця, батарея) отримуються в реальному часі та включаються лише до одного запиту API — вони ніде не зберігаються.</p>
+
+  <h2>6. Передача даних третім особам</h2>
+  <p>Для генерації гороскопу дані користувача передаються до:
+
+а) Anthropic (постачальник AI-моделі Claude) — дані надсилаються як частина промпту до API. Anthropic обробляє дані відповідно до своєї політики конфіденційності (https://www.anthropic.com/privacy). Дані, передані через API, не використовуються Anthropic для навчання AI-моделей.
+
+б) Supabase — виступає технічним посередником (Edge Function). Запит проходить через інфраструктуру Supabase, однак персональні дані там постійно не зберігаються.
+
+Контролер не передає персональні дані жодним іншим третім особам.</p>
+
+  <h2>7. Строки зберігання даних</h2>
+  <p>Персональні дані зберігаються на пристрої користувача до:
+• Видалення Додатку, або
+• Ручного очищення даних Додатку через налаштування пристрою</p>
+
+  <h2>8. Права користувача</h2>
+  <p>Відповідно до GDPR (статті 15–22) користувач має право на: доступ, виправлення, видалення, обмеження обробки, перенесення даних, заперечення та відкликання згоди будь-коли.
+
+Для реалізації прав: daddyd3v@pm.me</p>
+
+  <h2>9. Діти</h2>
+  <p>Додаток не призначений для осіб молодше 16 років. Контролер свідомо не збирає дані дітей.</p>
+
+  <h2>10. Файли cookie та відстеження</h2>
+  <p>Додаток не використовує файли cookie, пікселі відстеження, аналітичні інструменти чи будь-які інші технології відстеження користувачів.</p>
+
+  <h2>11. Зміни до цієї Політики</h2>
+  <p>Контролер залишає за собою право вносити зміни до цієї Політики конфіденційності. Про будь-які суттєві зміни користувача буде повідомлено через оновлення Додатку.</p>
+
+  <h2>12. Контакт</h2>
+  <p>З питань захисту персональних даних:
+
+E-mail: daddyd3v@pm.me
+Filip Owczarek
+Augusta Cieszkowskiego 1/3 m.5
+01-636 Варшава, Польща</p>
+
+  <h2>13. Спеціальне повідомлення щодо даних про здоров'я</h2>
+  <p>Фаза менструального циклу є даними про здоров'я відповідно до ст. 9(1) GDPR (дані особливої категорії).
+
+Обробка цих даних здійснюється виключно на підставі явної згоди користувача (ст. 9(2)(а) GDPR).
+
+Важлива інформація:
+• Надання фази циклу є повністю добровільним та необов'язковим.
+• Ці дані НЕ зберігаються на жодному сервері.
+• Вони використовуються лише один раз для генерації одного гороскопу.
+• Користувач може відкликати згоду будь-коли в налаштуваннях Додатку.
+• Додаток НЕ є медичним пристроєм і не призначений для моніторингу стану здоров'я.</p>
+</div>
+
+<!-- CZECH -->
+<div class="lang-section" id="lang-cs">
+  <p class="updated">Poslední aktualizace: 1. dubna 2026</p>
+
+  <h2>1. Správce údajů</h2>
+  <p>Správcem osobních údajů zpracovávaných v aplikaci „Vedic Horoscope" je Filip Owczarek, Augusta Cieszkowskiego 1/3 m.5, 01-636 Varšava, Polsko (dále jen „Správce").
+
+Správce zpracovává osobní údaje v souladu s Nařízením (EU) 2016/679 (GDPR) a platnými vnitrostátními právními předpisy.</p>
+
+  <h2>2. Jaké údaje shromažďujeme</h2>
+  <p>Aplikace zpracovává následující kategorie osobních údajů:
+
+a) Základní údaje (poskytnuté uživatelem):
+• Datum narození
+• Čas narození
+• Místo narození
+• Pohlaví
+• Fáze menstruačního cyklu (volitelné, pouze pro ženy) — jedná se o údaje o zdravotním stavu ve smyslu čl. 9 odst. 1 GDPR
+
+b) Kontextové údaje (dočasně shromažďované při zapnuté personalizaci):
+• Přibližná poloha uživatele
+• Údaje o počasí
+• Kalendářní údaje
+• Fáze Měsíce
+• Úroveň nabití baterie zařízení
+
+Kontextové údaje NEJSOU ukládány — jsou použity jednorázově v dotazu na model AI a nejsou uloženy na žádném serveru.
+
+c) Jazykové nastavení zařízení.</p>
+
+  <h2>3. Právní základ zpracování</h2>
+  <p>• Čl. 6 odst. 1 písm. a) GDPR — souhlas uživatele se zpracováním základních údajů za účelem generování horoskopu.
+• Čl. 9 odst. 2 písm. a) GDPR — výslovný souhlas se zpracováním údajů o zdravotním stavu (fáze cyklu). Dobrovolný, odvolatelný kdykoli.
+• Čl. 6 odst. 1 písm. f) GDPR — oprávněný zájem Správce v oblasti bezpečnosti.</p>
+
+  <h2>4. Účel zpracování</h2>
+  <p>Osobní údaje jsou zpracovávány výhradně za účelem:
+• Generování personalizovaných védských horoskopů a analýz natálních map
+• Poskytování kontextově personalizovaných čtení (je-li zapnuto)
+• Zasílání oznámení aplikace (je-li zapnuto)
+• Zajištění bezpečnosti aplikace</p>
+
+  <h2>5. Uchovávání údajů</h2>
+  <p>Osobní údaje uživatele jsou uchovávány výhradně na zařízení uživatele pomocí technologie AsyncStorage.
+
+Aplikace NEVEDE serverovou databázi uživatelů. Žádné osobní údaje nejsou trvale uloženy na serverech Správce.
+
+Kontextové údaje (poloha, počasí, kalendář, fáze Měsíce, baterie) jsou načítány v reálném čase a zahrnuty pouze do jednoho požadavku API — nikde nejsou ukládány.</p>
+
+  <h2>6. Sdílení údajů se třetími stranami</h2>
+  <p>Za účelem generování horoskopu jsou údaje uživatele předávány:
+
+a) Anthropic (poskytovatel AI modelu Claude) — data jsou odesílána jako součást promptu do API. Anthropic zpracovává údaje v souladu se svými zásadami ochrany soukromí (https://www.anthropic.com/privacy). Data odeslaná prostřednictvím API nejsou Anthropicem používána k trénování AI modelů.
+
+b) Supabase — slouží jako technický prostředník (Edge Function). Požadavek prochází infrastrukturou Supabase, osobní údaje tam však nejsou trvale uloženy.
+
+Správce nepředává osobní údaje žádným jiným třetím stranám.</p>
+
+  <h2>7. Doba uchovávání údajů</h2>
+  <p>Osobní údaje jsou uchovávány na zařízení uživatele do doby:
+• Odinstalování Aplikace, nebo
+• Ručního vymazání dat Aplikace uživatelem v nastavení zařízení</p>
+
+  <h2>8. Práva uživatele</h2>
+  <p>Podle GDPR (články 15–22) má uživatel právo na: přístup, opravu, výmaz, omezení zpracování, přenositelnost údajů, námitku a odvolání souhlasu kdykoli.
+
+Pro uplatnění práv: daddyd3v@pm.me</p>
+
+  <h2>9. Děti</h2>
+  <p>Aplikace není určena pro osoby mladší 16 let. Správce vědomě neshromažďuje údaje dětí.</p>
+
+  <h2>10. Soubory cookie a sledování</h2>
+  <p>Aplikace nepoužívá soubory cookie, sledovací pixely, analytické nástroje ani žádné jiné technologie sledování uživatelů.</p>
+
+  <h2>11. Změny zásad ochrany osobních údajů</h2>
+  <p>Správce si vyhrazuje právo na změnu těchto Zásad. O podstatných změnách bude uživatel informován prostřednictvím aktualizace Aplikace.</p>
+
+  <h2>12. Kontakt</h2>
+  <p>V záležitostech ochrany osobních údajů:
+
+E-mail: daddyd3v@pm.me
+Filip Owczarek
+Augusta Cieszkowskiego 1/3 m.5
+01-636 Varšava, Polsko</p>
+
+  <h2>13. Zvláštní upozornění ohledně údajů o zdraví</h2>
+  <p>Fáze menstruačního cyklu představuje údaje o zdravotním stavu ve smyslu čl. 9 odst. 1 GDPR (zvláštní kategorie údajů).
+
+Zpracování těchto údajů probíhá výhradně na základě výslovného souhlasu uživatele (čl. 9 odst. 2 písm. a) GDPR).
+
+Důležité informace:
+• Poskytnutí fáze cyklu je zcela dobrovolné a volitelné.
+• Tyto údaje NEJSOU ukládány na žádném serveru.
+• Jsou použity jednorázově pro vygenerování jednoho horoskopu.
+• Uživatel může souhlas kdykoli odvolat v nastavení Aplikace.
+• Aplikace NENÍ zdravotnickým prostředkem a neslouží k monitorování zdravotního stavu.</p>
+</div>
+
+</div>
+
+<footer>✦ vedic-horoscope.app ✦ &nbsp;|&nbsp; daddyd3v@pm.me</footer>
+
+<script>
+function setLang(lang) {
+  document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+  event.target.classList.add('active');
+  document.documentElement.lang = lang === 'ua' ? 'uk' : lang;
+}
+</script>
+</body>
+</html>
